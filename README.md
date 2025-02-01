@@ -1,6 +1,6 @@
 # Raptor Ranch Website
 
-![Raptor Ranch Logo](https://res.cloudinary.com/dlo6pjmqi/image/upload/c_scale,h_40/v1737244511/Raptor_Ranch_fdc4y9.jpg)
+![Raptor Ranch Logo](https://res.cloudinary.com/dlo6pjmqi/image/upload/v1737244711/Raptor_Ranch_1000x1000_ppnoyc.png)
 
 Simple single-page website for a local Arizona farm business selling artisanal goods.
 
