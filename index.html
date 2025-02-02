@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-	<script src="https://kit.fontawesome.com/88a2056623.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/88a2056623.js" crossorigin="anonymous"></script>
     <style>
         :root {
             --terra: #c17c74;
@@ -58,16 +58,23 @@
 </head>
 <body class="bg-white text-gray-900 transition-colors duration-300">
     <main>
-        <!-- Hero Section -->
-<section class="min-h-screen flex items-center justify-center py-8 px-4">
-    <div class="text-center">
-        
-        <img src="https://res.cloudinary.com/dlo6pjmqi/image/upload/v1738449282/Raptor-ranch-logo-400x400_yzieiy.jpg"
-             alt="Raptor Ranch Logo"
-             class="w-48 h-48 md:w-64 md:h-64 mx-auto mb-8 rounded-full object-cover shadow-lg">
-        <h1 class="text-4xl mb-4">Raptor Ranch</h1>
-        <p class="text-gray-600 mb-8 max-w-md mx-auto">Handmade in Arizona</p>
-    </div>
+        <!-- Hero Section with Lottie Animation -->
+        <section class="min-h-screen flex items-center justify-center py-8 px-4">
+            <div class="text-center">
+                <!-- Lottie Animation -->
+                <div class="w-64 h-64 md:w-96 md:h-96 mx-auto mb-8">
+                    <lottie-player
+                        src="https://lottie.host/d325c738-c08c-4517-b30e-353560726b4d/ebG7LOX6yV.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 100%; height: 100%;"
+                        loop
+                        autoplay>
+                    </lottie-player>
+                </div>
+                <h1 class="text-4xl mb-4">Raptor Ranch</h1>
+                <p class="text-gray-600 mb-8 max-w-md mx-auto">Handmade in Arizona</p>
+            </div>
         </section>
 
         <!-- Farm Goods Carousel -->
@@ -147,6 +154,9 @@
             </div>
         </section>
     </main>
+
+    <!-- Lottie Script -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <script>
         // Simple Carousel Functionality
