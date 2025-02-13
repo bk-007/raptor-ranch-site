@@ -171,7 +171,7 @@
                     </a>
                 </div>
                 <p class="mt-8 text-gray-600 text-sm">
-                    Apache Junction, Arizona<br>
+                    Apache Junction, AZ<br>
                     Available for local pickup
                 </p>
             </div>
@@ -182,7 +182,6 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <script>
-        // Force loader to show for 5 seconds regardless of page load status
         setTimeout(() => {
             const loader = document.getElementById('loader');
             const mainContent = document.querySelector('.main-content');
@@ -195,9 +194,9 @@
                 loader.style.display = 'none';
                 mainContent.style.opacity = '1';
             }, 500); // Fade-out animation duration
-        }, 5000); // 5000ms = 5 seconds
+        }, 3000);
 
-        // Carousel functionality (unchanged)
+        // Carousel functionality
         let currentSlide = 0;
         const slides = document.querySelectorAll('.carousel-item');
         const dots = document.querySelectorAll('.carousel-dot');
