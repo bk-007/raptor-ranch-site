@@ -1,6 +1,6 @@
 # Raptor Ranch Website
 
-![Raptor Ranch Logo](https://res.cloudinary.com/dlo6pjmqi/image/upload/v1738449282/Raptor-ranch-logo-400x400_yzieiy.png)
+![Raptor Ranch Logo](https://res.cloudinary.com/dlo6pjmqi/video/upload/v1743901097/raptor_ranch_rjy4u8.gif)
 
 A link in bio site for a little local business.
 
